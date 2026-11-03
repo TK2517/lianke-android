@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fitlog.local" android:versionCode="3" android:versionName="0.2.1">
+    <queries><intent><action android:name="android.media.action.IMAGE_CAPTURE" /></intent></queries>
+    <application android:label="练刻" android:icon="@drawable/ic_fit" android:theme="@style/FitTheme" android:usesCleartextTraffic="false" android:allowBackup="false" android:dataExtractionRules="@xml/data_extraction_rules" android:fullBackupContent="@xml/backup_rules">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
